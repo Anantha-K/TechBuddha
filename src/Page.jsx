@@ -10,7 +10,7 @@ import visakhImg from '/Visakh.jpeg';
 
 const executives = [
   {
-    name: 'Agustine',
+    name: 'Agustine Vadakumchery',
     title: 'CEO',
     image: agustineImg,
     path: '/members/agustine'
