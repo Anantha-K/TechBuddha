@@ -1,3 +1,4 @@
+
 import {
   mobile,
   backend,
@@ -324,10 +325,12 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2024",
     images: [
-      "Hospex1.JPG",
-     "Hospex2.JPG",
-     "Hospex3.JPG",
-     "Hospex4.JPG",
+       "Hospexx1.jpeg",
+      "Hospexx2.jpeg",
+      "Hospexx3.jpeg",
+      "Hospexx4.jpeg",
+      "Hospexx5.jpeg",
+
     ],
   },
   {
@@ -336,11 +339,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2024",
     images: [
-      "Hospexx1.jpeg",
-      "Hospexx2.jpeg",
-      "Hospexx3.jpeg",
-      "Hospexx4.jpeg",
-      "Hospexx5.jpeg",
+            "Hospex1.JPG",
+     "Hospex2.JPG",
+     "Hospex3.JPG",
+     "Hospex4.JPG",
+     
       
     ],
   },
