@@ -79,7 +79,7 @@ const services = [
 const membersData = {
   agustine: {
     id: 'agustine',
-    name: 'Agustine',
+    name: 'Agustine Vadakumchery',
     title: 'CEO',
     bio: 'Lorem ipsum dolor sit amet...',
     image: '/Agustine.jpeg',
