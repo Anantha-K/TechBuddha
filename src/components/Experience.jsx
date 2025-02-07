@@ -60,7 +60,7 @@ const Experience = () => {
   useEffect(() => {
     const fetchAchievements = async () => {
       try {
-        const response = await fetch("https://Tech-buddha-server-1-xl0n.onrender.com/achievements");
+        const response = await fetch("https://tech-buddha-server-1.onrender.com/achievements");
         if (!response.ok) throw new Error("Failed to fetch achievements");
         const data = await response.json();
         setAchievements(data.data);
