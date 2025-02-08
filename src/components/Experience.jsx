@@ -61,7 +61,7 @@ const Experience = () => {
     const fetchAchievements = async () => {
       try {
         const response = await fetch("https://tech-buddha-server-1.onrender.com/achievements");
-        if (!response.ok) throw new Error("Failed to fetch achievements");
+        if (!response.ok) throw new Error("Failed to fetch achievement");
         const data = await response.json();
         setAchievements(data.data);
       } catch (err) {
