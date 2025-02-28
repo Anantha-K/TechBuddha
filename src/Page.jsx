@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Info, ChevronDown, ChevronUp, Search } from 'lucide-react';
+import Layout from './components/Layout';
 
 import adityaImg from '/aditya.jpeg';
 import mithilImg from '/Mithil.jpeg';
@@ -221,6 +222,12 @@ const CategoryFilter = ({ activeFilter, onFilterChange }) => {
   const categories = ['college', 'development', 'marketing', 'job'];
   
   return (
+      <Layout 
+      title={'Executives - Lenient tree '}
+      description={" Meet the leadership team behind Lienet Tree! Learn about the executives who shape our platform, connecting innovators with top hackathons and empowering collaboration in the tech community."}
+      keywords={"Lienet Tree leadership,Lienet Tree executives,Our team at Lienet Tree,Tech platform leadership,Innovator community leaders,Hackathon platform team,Meet our executives,Innovation and collaboration leaders,Tech industry leadership,Driving innovation in hackathons"}
+      author={"Leinent Tree"}
+      >
     <div className="grid grid-cols-2 grid-rows-auto gap-x-4 gap-y-4 md:flex md:justify-center gap-4 mb-8">
     {categories.map((category) => (
       <button
@@ -236,6 +243,7 @@ const CategoryFilter = ({ activeFilter, onFilterChange }) => {
       </button>
     ))}
   </div>
+  </Layout>
   
   );
 };
