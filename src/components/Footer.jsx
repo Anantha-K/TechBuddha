@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="text-2xl font-bold">Lenient Tree</span>
             </div>
             <p className="text-gray-400 max-w-xs">
-              A new way to make the payments easy, reliable and secure.
+            LenientTree - Find & Join Hackathons and Ideathons
             </p>
           </div>
 

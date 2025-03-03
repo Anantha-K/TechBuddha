@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { Medal, Award, BookOpen, Trophy, Microscope, Leaf, Smartphone, Factory } from 'lucide-react';
 import MemberProfileSection from '../MemberDetails';
 import AchievementsSection from '../Portfolio';
+import Layout from '../components/Layout';
 
 const IconMapper = {
   BookOpen, Award, Medal, Trophy, Microscope, Leaf, Smartphone, Factory,
@@ -84,6 +85,12 @@ const MemberPage = () => {
   }
 
   return (
+    <Layout 
+          title= {`${memberData.fullname } Leninet tree`}
+          description={ `${memberData.currentPositions || ['member']} Leineit Tree \n Meet the leadership team behind Lienet Tree! Learn about the executives who shape our platform, connecting innovators with top hackathons and empowering collaboration in the tech community.`}
+          keywords={"Lienet Tree leadership,Lienet Tree executives,Our team at Lienet Tree,Tech platform leadership,Innovator community leaders,Hackathon platform team,Meet our executives,Innovation and collaboration leaders,Tech industry leadership,Driving innovation in hackathons"}
+          author={"Leinent Tree"}
+          >
     <div>
       <MemberProfileSection
         name={memberData.fullname}
@@ -96,6 +103,7 @@ const MemberPage = () => {
       />
       <AchievementsSection certificates={memberData.certificateUrls} cgpa={memberData.cgpa} />
     </div>
+    </Layout>
   );
 };
 

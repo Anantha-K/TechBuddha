@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from '@/components/ui/card';
 import { Brain, Code2, Database } from 'lucide-react';
+import Layout from '../components/Layout';
 
 const LandingPage = () => {
   const courses = [
@@ -49,6 +50,12 @@ const LandingPage = () => {
   ];
 
   return (
+     <Layout
+          title={'RoadMap - Lenient tree '}
+          description={" Your ultimate roadmap to kickstart a successful career in your desired field. Join Lienet Tree to explore guided career paths, skill development, and industry insights to accelerate your growth"}
+          keywords={"Career roadmap, skill development, career growth, professional guidance, industry insights, job preparation, career planning, Lienet Tree career guide."}
+          author={"Leinent Tree"}
+          >
     <div className="min-h-screen bg-gray-100">
       {/* Header Section */}
       <header className="bg-gray-800 text-white py-16">
@@ -114,6 +121,7 @@ const LandingPage = () => {
         </div>
       </section>
     </div>
+    </Layout>
   );
 };
 

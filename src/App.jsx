@@ -19,6 +19,7 @@ import EditAchievements from "./Pages/editAchievement";
 import AdminDashboard from "./Pages/admin";
 import LearningRoadmap from "./roadmaps/roadmap";
 import Roadmap from "./Pages/roadmaps";
+import Layout from "./components/Layout";
 
 
 
@@ -27,7 +28,14 @@ import Roadmap from "./Pages/roadmaps";
 
 
 const Home = () => (
-  <>
+  <Layout 
+  title={'Home - Leinent tree'}
+  description={" Welcome to Lienet tree where we help you to Discover top hackathons, build projects, and collaborate with innovators."}
+  keywords={"HomePage, services, Assistance,Ideathons platform,Hackathons directory,Student innovation hub,Hackathon listings,Find hackathons online,Join ideathons,Hackathon opportunities, Project showcase for students,Build and share projects,Collaborative coding platform,Student skill development,Tech competitions for students,Hackathon community,Networking for innovators,Coding challenges for students"}
+  author={"Leinent Tree"}
+  >
+
+
     <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
       <Hero />
     </div>
@@ -39,7 +47,7 @@ const Home = () => (
     <Footer/>
     <div className='relative z-0'>
     </div>
-  </>
+    </Layout>
 );
 
 const App = () => {
