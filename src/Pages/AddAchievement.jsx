@@ -30,7 +30,7 @@ export default function AchievementsForm() {
     });
 
     try {
-      const response = await fetch("https://tech-buddha-server-1.onrender.com/achievements", {
+      const response = await fetch("https://tech-buddha-server-0dge.onrender.com/achievements", {
         method: "POST",
         body: data,
       });
