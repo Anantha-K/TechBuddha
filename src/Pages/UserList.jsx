@@ -12,7 +12,7 @@ const UsersList = () => {
 
   const fetchUsers = async () => {
     try {
-      const response = await fetch('https://tech-buddha-server-1.onrender.com/members');
+      const response = await fetch('https://tech-buddha-server-0dge.onrender.com/members');
       if (!response.ok) {
         throw new Error('Failed to fetch users');
       }
