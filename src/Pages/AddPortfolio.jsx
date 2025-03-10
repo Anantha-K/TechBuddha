@@ -97,7 +97,7 @@ export default function UserForm() {
 
 
     try {
-      const response = await fetch("https://tech-buddha-server-1.onrender.com/upload", {
+      const response = await fetch("https://tech-buddha-server-0dge.onrender.com/upload", {
         method: "POST",
         body: data,
       });
