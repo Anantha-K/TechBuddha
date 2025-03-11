@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/dialog";
 import toast from "react-hot-toast";
 
-const API_BASE_URL = "https://tech-buddha-server-1.onrender.com";
+const API_BASE_URL = "https://tech-buddha-server-0dge.onrender.com";
 
 export default function EditAchievements() {
   const [achievements, setAchievements] = useState([]);
