@@ -40,7 +40,7 @@ const UsersList = () => {
     const deletingToast = toast.loading('Deleting user...');
     try {
       const response = await fetch(
-        `https://tech-buddha-server-0dge.onrender.com//members/${userId}`,
+        `https://tech-buddha-server-0dge.onrender.com/members/${userId}`,
         {
           method: 'DELETE',
         }
