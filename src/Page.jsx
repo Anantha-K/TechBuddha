@@ -259,7 +259,7 @@ export default function ExecutivesDisplay() {
   useEffect(() => {
     const fetchMembers = async () => {
       try {
-        const response = await fetch('https://tech-buddha-server-1.onrender.com/members');
+        const response = await fetch('https://tech-buddha-server-0dge.onrender.com/members');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
         setMembers(data);
